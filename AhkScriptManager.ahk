@@ -67,7 +67,7 @@ runAnyScriptWindow() {
 
 	runnableScriptsRootPath=%A_ScriptDir%\
 
-	runnableScriptsRootPath := regexreplace(runnableScriptsRootPath, "^\.(\\|/)", A_ScriptDir)
+	runnableScriptsRootPath := RegExReplace(runnableScriptsRootPath, "^\.(\\|/)", A_ScriptDir)
 
 	categoryFoldersContents:=Object()
 	categoryFolders := ""
